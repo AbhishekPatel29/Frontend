@@ -13,7 +13,6 @@ body{
     min-height: 100vh;
     max-width: 100%;
     position: relative;
-    justify-content: space-between;
     padding: 0%;
 }
 .loginContent {
@@ -30,6 +29,10 @@ a {
     color: #ea1b3c;
     text-decoration: none;
 }
+a:hover{
+    color: #ea1b3c;
+    text-decoration: none;
+}
 
 .loginImg{
     width: 100%;
@@ -39,9 +42,22 @@ a {
 .form-field {
     position: relative;
     margin-bottom: 16px;
-    
+   
     
 }
-.form-field1{
+/* .form-field1{
     padding-left: inherit;
+} */
+.button{
+   background-color: #ea1b3c;
+   border:1px solid #ea1b3c;
+   color: white;
+   padding: 10px 5px;
+   width: 100%;
+}
+
+.button:hover{
+    border: 0px;
+    background-color:black;
+    color:white;
 }
