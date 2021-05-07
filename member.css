@@ -1,0 +1,43 @@
+
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    margin-left: 37px;
+    margin-right: 37px;
+}
+.owl-carousel .owl-nav button.owl-prev  {
+    background: red;
+    padding: 10px !important;
+}
+.owl-carousel .owl-nav button.owl-next  {
+    background: red;
+    padding: 10px !important;
+}
+.owl-nav button span {
+    font-size: 60px;
+    padding: 10px 20px;
+    
+}
+
+button.owl-prev {
+    float: left;
+    left:-30px;
+    
+}
+
+button.owl-next {
+    float: right;
+    right:-30px;
+}
+
+.owl-nav {
+    width: 100vw;
+    position: absolute;
+    
+}
+
+.owl-carousel.owl-theme.owl-loaded.owl-drag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
