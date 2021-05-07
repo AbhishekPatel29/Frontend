@@ -46,6 +46,7 @@
     <link rel="stylesheet" href="member.css" />
   </head>
   <body>
+    <div class="container">
       <div class="col-md-12">
           <h2>Member's Corner</h2>
       </div>
@@ -226,25 +227,27 @@
         </div>
       </div>
     </div>
-    <script>
-      $(".owl-carousel").owlCarousel({
-        loop: true,
-        margin: 10,
+  </div>
+  <script>
+    $('.owl-carousel').owlCarousel({
         nav: true,
-        dots:false,
-        navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-        responsive: {
-          0: {
-            items: 1,
-          },
-          600: {
-            items: 3,
-          },
-          1000: {
-            items: 4,
-          },
-        },
-      });
-    </script>
+        items: 3,
+        loop:true,
+        responsiveClass:true,
+        responsive:{
+    0:{
+        items:1
+    },
+    600:{
+        items:2
+    },            
+    960:{
+        items:3
+    }
+   
+}
+
+    })
+</script>
   </body>
 </html>
